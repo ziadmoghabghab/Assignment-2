@@ -12,7 +12,7 @@ st.title("MSBA 325 Assignment 2")
 st.header("Ziad Moghabghab")
 st.header("ID: 202224793")
 
-df = pd.read_csv('C:/Users/Lenovo-User/Desktop/AUB/MSBA 325/Assignment 1/Life Expectancy Data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/ziadmoghabghab/Assignment-2/msba325/Life%20Expectancy%20Data.csv')
 import plotly.express as px
 
 adult_mortality_mean=df['Adult Mortality'].mean()
