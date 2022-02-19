@@ -64,5 +64,3 @@ if st.checkbox('Show Population Of Developed And Undeveloped Coutnries Over Time
     st.subheader('Population Of Developed And Undeveloped Coutnries Over Time')
     st.write(figure4)
     st.audio('C:/Users/Lenovo-User/Desktop/AUB/MSBA 325/Assignment 2/Recording4.m4a')
-
-### antar my loevely at 
