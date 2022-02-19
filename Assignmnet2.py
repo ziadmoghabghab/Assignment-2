@@ -23,7 +23,7 @@ figure1 = px.scatter(df, x=' BMI ', y='Life expectancy ', animation_frame='Year'
 if st.checkbox('Show Life Expectancy vs BMI'):
     st.subheader('Life Expectancy vs BMI')
     st.write(figure1)
-    st.audio('C:/Users/Lenovo-User/Desktop/AUB/MSBA 325/Assignment 2/Recording1.m4a')
+    st.audio('https://raw.githubusercontent.com/ziadmoghabghab/Assignment-2/msba325/Recording1.m4a')
 
 
 adult_mortality_mean=df['Adult Mortality'].mean()
@@ -37,7 +37,7 @@ figure2 = px.choropleth(df, locations='Country',color='Life expectancy ', animat
 if st.checkbox('Show Life Expectancy Around The World'):
     st.subheader('Life Expectancy Around The World')
     st.write(figure2)
-    st.audio('C:/Users/Lenovo-User/Desktop/AUB/MSBA 325/Assignment 2/Recording2.m4a')
+    st.audio('https://raw.githubusercontent.com/ziadmoghabghab/Assignment-2/msba325/Recording2.m4a')
 
 adult_mortality_mean=df['Adult Mortality'].mean()
 df['Adult Mortality'].fillna(adult_mortality_mean, inplace=True)
@@ -50,7 +50,7 @@ figure3 =px.histogram(df,y='under-five deaths ', x='Alcohol', color='Status', ra
 if st.checkbox('Show Relation Between Deaths Of Children Under 5 And Alcohol'):
     st.subheader('Relation Between Deaths Of Children Under 5 And Alcohol')
     st.write(figure3)
-    st.audio('C:/Users/Lenovo-User/Desktop/AUB/MSBA 325/Assignment 2/Recording3.m4a')
+    st.audio('https://raw.githubusercontent.com/ziadmoghabghab/Assignment-2/msba325/Recording3.m4a')
 
 adult_mortality_mean=df['Adult Mortality'].mean()
 df['Adult Mortality'].fillna(adult_mortality_mean, inplace=True)
@@ -63,4 +63,4 @@ figure4 = px.bar(df,x='Status', y='Population', color='Status', animation_frame=
 if st.checkbox('Show Population Of Developed And Undeveloped Coutnries Over Time'):
     st.subheader('Population Of Developed And Undeveloped Coutnries Over Time')
     st.write(figure4)
-    st.audio('C:/Users/Lenovo-User/Desktop/AUB/MSBA 325/Assignment 2/Recording4.m4a')
+    st.audio('https://raw.githubusercontent.com/ziadmoghabghab/Assignment-2/msba325/Recording4.m4a')
